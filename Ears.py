@@ -7,7 +7,10 @@ class Ears():
     def capture_voice_input(self):
         with sr.Microphone() as source:
             print("Listening...")
+<<<<<<< HEAD
             # Need a limit on how long it listen for, Else it will keep listening until it finishes.
+=======
+>>>>>>> origin/main
             audio = self.recognizer.listen(source)
         return audio
 
